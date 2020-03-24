@@ -3,3 +3,6 @@
 
     + **MFTA you a little skid your getting swatted fyi, ik you're reading this.**
   
+# INFO
+ - Official page ~~http://alucard.wtf~~ | Closed
+ - Official shop ~~https://hexpay.gg/u/Alucard-Selfbot/~~ | Closed
