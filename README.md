@@ -6,3 +6,5 @@
 # INFO
  - Official page ~~http://alucard.wtf~~ | Closed
  - Official shop ~~https://hexpay.gg/u/Alucard-Selfbot/~~ | Closed
+
+###### if you know how to install requirements.txt then you are one step ahead of everyone else! Congrats!
