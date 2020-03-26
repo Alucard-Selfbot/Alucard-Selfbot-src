@@ -20,9 +20,10 @@ from subprocess import call
 from itertools import cycle
 from colorama import Fore
 from sys import platform
-import pyPrivnote as pn
 from PIL import Image
+import pyPrivnote as pn
 from gtts import gTTS
+
 
 ctypes.windll.kernel32.SetConsoleTitleW(f'[Alucard Selfbot v{SELFBOT.__version__}] | Loading...')
 
@@ -128,39 +129,6 @@ def Init():
         except discord.errors.LoginFailure:
             print(f"{Fore.RED}[ERROR] {Fore.YELLOW}Improper token has been passed"+Fore.RESET)
             os.system('pause >NUL')
-
-def AuthMenu():
-    print(f"[{Fore.RED}!{Fore.RESET}] Type 1 to check your whitelist")
-    choice = input(f"[{Fore.RED}>{Fore.RESET}] ")
-    if choice == "1":
-        print()
-        print(f"{Fore.RED}◄{Fore.RESET} Thanks for choosing Alucard SelfBot {Fore.RED}►{Fore.RESET}")  
-        print()
-        Auth()
-    else:
-        print(f"{Fore.RED}Not a valid option {Fore.RESET}")
-        Clear()
-        AuthMenu()
-
-def Auth():
-    Client = MongoClient("mongodburl")
-    db = Client["1"]
-    collection = db["2"]
-    validate = {}
-    validate ['2'] = hwid
-    if collection.find_one({"2": hwid}):
-        print(f"[{Fore.GREEN}+{Fore.RESET}] HWID WHITELISTED")
-        time.sleep(5)
-        Clear()
-        Init()
-    else:
-        print()
-        print(f"[{Fore.RED}!{Fore.RESET}] HWID NOT WHITELISTED")
-        print("HWID: "+hwid)
-        print()
-        time.sleep(5)
-        Clear()
-        AuthMenu()
 
 def GmailBomber():
     _smpt = smtplib.SMTP('smtp.gmail.com', 587)
@@ -1936,4 +1904,4 @@ async def _gmail_bomb(ctx): # b'\xfc'
     GmailBomber()
 
 if __name__ == '__main__':
-    AuthMenu()
+	Init()
