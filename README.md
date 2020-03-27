@@ -4,6 +4,7 @@
     # SKIDS
       + **MFTA#6969**
       + **38#9999**
+      + **Putty1337#1337**
   
 # INFO
  - Official page ~~http://alucard.wtf~~ | Closed
