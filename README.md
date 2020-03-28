@@ -4,7 +4,7 @@
     # SKIDS
       + **MFTA#6969**
       + **38#9999**
-      + **Putty1337#1337** | Xenith#1337
+      + **Putty1337#1337** | Xenith#1337 | Clinks#0001
   
 # INFO
  - Official page ~~http://alucard.wtf~~ | Closed
