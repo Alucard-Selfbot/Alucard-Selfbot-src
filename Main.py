@@ -3,7 +3,7 @@ class SELFBOT():
     __version__ = 3.4
     
     # Dont just skid it, gimme some credits, thank you - xanthe.#1337
-
+	
 import discord, subprocess, sys, time, os, colorama, base64, codecs, datetime, io, random, numpy, datetime, smtplib, string, ctypes
 import urllib.parse, urllib.request, re, json, requests, webbrowser, aiohttp, dns.name, asyncio, functools, logging
 
@@ -23,7 +23,6 @@ from sys import platform
 from PIL import Image
 import pyPrivnote as pn
 from gtts import gTTS
-
 
 ctypes.windll.kernel32.SetConsoleTitleW(f'[Alucard Selfbot v{SELFBOT.__version__}] | Loading...')
 
