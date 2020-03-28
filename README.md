@@ -3,8 +3,8 @@
 
     # SKIDS
       + **MFTA#6969**
-      + **38#9999**
-  
+      + **38#9999 -> Anyone with tro at the end or start of their name**
+      
 # INFO
  - Official page ~~http://alucard.wtf~~ | Closed
  - Official shop ~~https://hexpay.gg/u/Alucard-Selfbot/~~ | Closed
