@@ -4,7 +4,7 @@
     # SKIDS
       + **MFTA#6969**
       + **38#9999 -> Anyone with tro at the end or start of their name**
-      + **Kitsune** Another company | Main skid: wolfie -> Kappa, and theres their selfbot sourec code: [CLICK](https://hastebin.com/uqedaridac.py)
+      + **Kitsune** Another company | Main skid: wolfie -> Kappa, and theres their selfbot source code: [CLICK](https://hastebin.com/uqedaridac.py)
       
 # INFO
  - Official page ~~http://alucard.wtf~~ | Closed
