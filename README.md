@@ -2,6 +2,7 @@
   - **Alucard selfbot source code, since we made a good amount of money out of it, we decided to give you the chance to do the same.**
 
     # SKIDS
+      + **.Drip#0001** -> Him and MFTA the biggest skids ong
       + **MFTA#6969** -> The source code of his selfbot is literally just this github
       + **38#9999 -> Anyone with tro at the end or start of their name** -> They claim its alucard, but its a token grabber
       + **Kitsune** Another company | Main skid: **wolfie** -> **Kappa**, and theres their selfbot source code: [CLICK](https://hastebin.com/uqedaridac.py)
