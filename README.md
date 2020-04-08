@@ -3,7 +3,7 @@
 
     # SKIDS
       + **MFTA#6969** -> KryptoCard \ The source code of his selfbot is literally just this github: [IMAGE](https://files.sanitary.wtf/h7ga00g1.png)
-      + **39#9999 -> Anyone with tro at the end or start of their name** -> They claim its alucard, but its a token grabber: source code [CLICK](https://hasteb.in/exedadeq.py)
+      + **39#9999 -> Anyone with tro at the end or start of their name** -> They claim its alucard, but its a token grabber: source code: [CLICK](https://hasteb.in/exedadeq.py)
       + **Kitsune** Another company | Main skid: **wolfie** -> **Kappa**, and theres their selfbot source code: [CLICK](https://hastebin.com/uqedaridac.py)
       + **Zsxmbi#1999 I dont even feel like writting it up just look at this: [GIF](https://heroin.is-ne.at/YMimtL.gif)**
       
