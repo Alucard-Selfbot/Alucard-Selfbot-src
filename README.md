@@ -6,6 +6,7 @@
       + **39#9999 -> Anyone with tro at the end or start of their name** -> They claim its alucard, but its a token grabber: source code: [CLICK](https://hasteb.in/exedadeq.py)
       + **Kitsune** Another company | Main skid: **wolfie** -> **Kappa**, and theres their selfbot source code: [CLICK](https://hastebin.com/uqedaridac.py)
       + **Zsxmbi#1999 I dont even feel like writting it up just look at this: [GIF](https://heroin.is-ne.at/YMimtL.gif)**
+      + **Sleep#1617** Has Alucard but renamed it to his own client. [IMAGE](https://media.discordapp.net/attachments/687413883194966061/698807641065127946/unknown.png)**
       
 # INFO
  - Official page ~~http://alucard.wtf~~ | Closed
