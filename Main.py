@@ -718,7 +718,7 @@ async def cat(ctx): # b'\xfc'
         print(f"{Fore.RED}[ERROR]: {Fore.YELLOW}Cat API key has not been set in the config.json file"+Fore.RESET)
     else:
         try:
-            req = requests.get(f"fhttps://api.thecatapi.com/v1/images/search?format=json&x-api-key={cat_key}")
+            req = requests.get(f"https://api.thecatapi.com/v1/images/search?format=json&x-api-key={cat_key}")
             r = req.json()
             em = discord.Embed()
             em.set_image(url=str(r[0]["url"]))
