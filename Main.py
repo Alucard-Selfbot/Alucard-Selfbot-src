@@ -112,6 +112,29 @@ m_offets = [
     (1, 1)
 ]
 
+def startprint():
+	print(f'''{Fore.RESET}
+                       ▄▄▄       ██▓     █    ██  ▄████▄   ▄▄▄       ██▀███  ▓█████▄ 
+                      ▒████▄    ▓██▒     ██  ▓██▒▒██▀ ▀█  ▒████▄    ▓██ ▒ ██▒▒██▀ ██▌
+                      ▒██  ▀█▄  ▒██░    ▓██  ▒██░▒▓█    ▄ ▒██  ▀█▄  ▓██ ░▄█ ▒░██   █▌
+                      ░██▄▄▄▄██ ▒██░    ▓▓█  ░██░▒▓▓▄ ▄██▒░██▄▄▄▄██ ▒██▀▀█▄  ░▓█▄   ▌
+                       ▓█   ▓██▒░██████▒▒▒█████▓ ▒ ▓███▀ ░ ▓█   ▓██▒░██▓ ▒██▒░▒████▓
+                        ▒▒   ▓▒█░░ ▒░▓  ░░▒▓▒ ▒ ▒ ░ ░▒ ▒  ░ ▒▒   ▓▒█░░ ▒▓ ░▒▓░ ▒▒▓  ▒ 
+                        ▒   ▒▒ ░░ ░ ▒  ░░░▒░ ░ ░   ░  ▒     ▒   ▒▒ ░  ░▒ ░ ▒░ ░ ▒  ▒ 
+                        ░   ▒     ░ ░    ░░░ ░ ░ ░          ░   ▒     ░░   ░  ░ ░  ░ 
+                        ░  ░    ░  ░   ░     ░ ░            ░  ░   ░        ░
+                        
+                        
+                       {Fore.CYAN}Alucard {SELFBOT.__version__} | {Fore.GREEN}Logged in as: {Alucard.user.name}#{Alucard.user.discriminator} {Fore.CYAN}| ID: {Fore.GREEN}{Alucard.user.id}   
+                       {Fore.CYAN}Privnote Sniper | {Fore.GREEN}{privnote}
+                       {Fore.CYAN}Nitro Sniper | {Fore.GREEN}{nitro}
+                       {Fore.CYAN}Giveaway Sniper | {Fore.GREEN}{giveaway}
+                       {Fore.CYAN}SlotBot Sniper | {Fore.GREEN}{slotbot}
+                       {Fore.CYAN}Prefix: {Fore.GREEN}{prefix}
+    '''+Fore.RESET)
+    ctypes.windll.kernel32.SetConsoleTitleW(f'[Alucard Selfbot v{SELFBOT.__version__}] | Logged in as {Alucard.user.name}')
+
+
 def Clear():
     os.system('cls')
 Clear()
@@ -461,27 +484,9 @@ async def on_connect():
         privnote = "Active"
     else:
         privnote = "Disabled"    
-
-    print(f'''{Fore.RESET}
-                       ▄▄▄       ██▓     █    ██  ▄████▄   ▄▄▄       ██▀███  ▓█████▄ 
-                      ▒████▄    ▓██▒     ██  ▓██▒▒██▀ ▀█  ▒████▄    ▓██ ▒ ██▒▒██▀ ██▌
-                      ▒██  ▀█▄  ▒██░    ▓██  ▒██░▒▓█    ▄ ▒██  ▀█▄  ▓██ ░▄█ ▒░██   █▌
-                      ░██▄▄▄▄██ ▒██░    ▓▓█  ░██░▒▓▓▄ ▄██▒░██▄▄▄▄██ ▒██▀▀█▄  ░▓█▄   ▌
-                       ▓█   ▓██▒░██████▒▒▒█████▓ ▒ ▓███▀ ░ ▓█   ▓██▒░██▓ ▒██▒░▒████▓
-                        ▒▒   ▓▒█░░ ▒░▓  ░░▒▓▒ ▒ ▒ ░ ░▒ ▒  ░ ▒▒   ▓▒█░░ ▒▓ ░▒▓░ ▒▒▓  ▒ 
-                        ▒   ▒▒ ░░ ░ ▒  ░░░▒░ ░ ░   ░  ▒     ▒   ▒▒ ░  ░▒ ░ ▒░ ░ ▒  ▒ 
-                        ░   ▒     ░ ░    ░░░ ░ ░ ░          ░   ▒     ░░   ░  ░ ░  ░ 
-                        ░  ░    ░  ░   ░     ░ ░            ░  ░   ░        ░
-                        
-                        
-                       {Fore.CYAN}Alucard {SELFBOT.__version__} | {Fore.GREEN}Logged in as: {Alucard.user.name}#{Alucard.user.discriminator} {Fore.CYAN}| ID: {Fore.GREEN}{Alucard.user.id}   
-                       {Fore.CYAN}Privnote Sniper | {Fore.GREEN}{privnote}
-                       {Fore.CYAN}Nitro Sniper | {Fore.GREEN}{nitro}
-                       {Fore.CYAN}Giveaway Sniper | {Fore.GREEN}{giveaway}
-                       {Fore.CYAN}SlotBot Sniper | {Fore.GREEN}{slotbot}
-                       {Fore.CYAN}Prefix: {Fore.GREEN}{prefix}
-    '''+Fore.RESET)
-    ctypes.windll.kernel32.SetConsoleTitleW(f'[Alucard Selfbot v{SELFBOT.__version__}] | Logged in as {Alucard.user.name}')
+	
+	startprint()
+	
     headers = {
       'Authorization': token,
       'Content-Type': 'application/json',
@@ -1891,6 +1896,7 @@ async def _steal_all_pfp(ctx): # b'\xfc'
 async def cls(ctx): # b'\xfc'
     await ctx.message.delete()
     Clear()
+    startprint()
 
 @Alucard.command()
 async def nitro(ctx): # b'\xfc'
