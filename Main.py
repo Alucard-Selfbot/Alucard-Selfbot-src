@@ -132,8 +132,6 @@ def startprint():
                        {Fore.CYAN}SlotBot Sniper | {Fore.GREEN}{slotbot}
                        {Fore.CYAN}Prefix: {Fore.GREEN}{prefix}
     '''+Fore.RESET)
-    ctypes.windll.kernel32.SetConsoleTitleW(f'[Alucard Selfbot v{SELFBOT.__version__}] | Logged in as {Alucard.user.name}')
-
 
 def Clear():
     os.system('cls')
@@ -486,6 +484,7 @@ async def on_connect():
         privnote = "Disabled"    
 	
 	startprint()
+	ctypes.windll.kernel32.SetConsoleTitleW(f'[Alucard Selfbot v{SELFBOT.__version__}] | Logged in as {Alucard.user.name}')
 	
     headers = {
       'Authorization': token,
