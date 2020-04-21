@@ -357,9 +357,11 @@ async def on_message(message):
             token = config.get('token')
                 
             headers = {'Authorization': token}
+	    payload = {'channel_id': None, 'payment_source_id': None}
             r = requests.post(
                 f'https://discordapp.com/api/v6/entitlements/gift-codes/{code}/redeem', 
                 headers=headers,
+		json=payload
             ).text
         
             elapsed = datetime.datetime.now() - start
