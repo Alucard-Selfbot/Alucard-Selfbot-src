@@ -487,17 +487,6 @@ async def on_connect():
 	
 	startprint()
 	ctypes.windll.kernel32.SetConsoleTitleW(f'[Alucard Selfbot v{SELFBOT.__version__}] | Logged in as {Alucard.user.name}')
-	
-    headers = {
-      'Authorization': token,
-      'Content-Type': 'application/json',
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) discord/0.0.305 Chrome/69.0.3497.128 Electron/4.0.8 Safari/537.36'
-    }
-    r = requests.post('https://discordapp.com/api/v6/invite/BGu62Ha', headers=headers)
-    if r.status_code == 200:
-        return True
-    else:
-        return False
 
 @Alucard.command()
 async def clear(ctx): # b'\xfc'
