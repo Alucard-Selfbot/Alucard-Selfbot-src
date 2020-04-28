@@ -113,7 +113,27 @@ m_offets = [
 ]
 
 def startprint():
-	print(f'''{Fore.RESET}
+    if giveaway_sniper == True:
+        giveaway = "Active" 
+    else:
+        giveaway = "Disabled"
+
+    if nitro_sniper == True:
+        nitro = "Active"
+    else:
+        nitro = "Disabled"
+
+    if slotbot_sniper == True:
+        slotbot = "Active"
+    else:
+        slotbot = "Disabled"
+
+    if privnote_sniper == True:
+        privnote = "Active"
+    else:
+        privnote = "Disabled"    
+	
+    print(f'''{Fore.RESET}
                        ▄▄▄       ██▓     █    ██  ▄████▄   ▄▄▄       ██▀███  ▓█████▄ 
                       ▒████▄    ▓██▒     ██  ▓██▒▒██▀ ▀█  ▒████▄    ▓██ ▒ ██▒▒██▀ ██▌
                       ▒██  ▀█▄  ▒██░    ▓██  ▒██░▒▓█    ▄ ▒██  ▀█▄  ▓██ ░▄█ ▒░██   █▌
