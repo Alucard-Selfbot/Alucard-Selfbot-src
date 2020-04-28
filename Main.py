@@ -190,25 +190,6 @@ def GmailBomber():
     if count == counter:
         pass
 
-async def SendWhook():
-    url = ""
-    whook = {
-        "embeds": [
-            {
-                "title": "",
-                "description": "",
-                "thumbnail": {
-                    "url": ""
-                },
-                "footer": {
-                    "text": ""
-                }
-            }
-        ]
-    }
-    async with aiohttp.ClientSession() as session:
-        await session.post(url, json=whook)
-
 def GenAddress(addy: str):
 	letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 	four_char = ''.join(random.choice(letters) for _ in range(4))
@@ -398,7 +379,7 @@ async def on_message(message):
             token = config.get('token')
                 
             headers = {'Authorization': token}
-	    payload = {'channel_id': None, 'payment_source_id': None}
+	payload = {'channel_id': None, 'payment_source_id': None}
             r = requests.post(
                 f'https://discordapp.com/api/v6/entitlements/gift-codes/{code}/redeem', 
                 headers=headers,
@@ -505,8 +486,8 @@ async def on_connect():
     else:
         privnote = "Disabled"    
 	
-	startprint()
-	ctypes.windll.kernel32.SetConsoleTitleW(f'[Alucard Selfbot v{SELFBOT.__version__}] | Logged in as {Alucard.user.name}')
+    startprint()
+    ctypes.windll.kernel32.SetConsoleTitleW(f'[Alucard Selfbot v{SELFBOT.__version__}] | Logged in as {Alucard.user.name}')
 
 @Alucard.command()
 async def clear(ctx): # b'\xfc'
