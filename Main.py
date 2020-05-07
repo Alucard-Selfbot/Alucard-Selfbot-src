@@ -151,6 +151,7 @@ def startprint():
                        {Fore.CYAN}Giveaway Sniper | {Fore.GREEN}{giveaway}
                        {Fore.CYAN}SlotBot Sniper | {Fore.GREEN}{slotbot}
                        {Fore.CYAN}Prefix: {Fore.GREEN}{prefix}
+		       {Fore.CYAN}Creator(open-source on github): {Fore.GREEN}xanthe.#1337
     '''+Fore.RESET)
 
 def Clear():
