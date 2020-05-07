@@ -3,7 +3,7 @@ class SELFBOT():
     __version__ = 3.4
     
     # Dont just skid it, gimme some credits, thank you - xanthe.#1337
-	
+    
 import discord, subprocess, sys, time, os, colorama, base64, codecs, datetime, io, random, numpy, datetime, smtplib, string, ctypes
 import urllib.parse, urllib.request, re, json, requests, webbrowser, aiohttp, dns.name, asyncio, functools, logging
 
@@ -132,7 +132,7 @@ def startprint():
         privnote = "Active"
     else:
         privnote = "Disabled"    
-	
+    
     print(f'''{Fore.RESET}
                        ▄▄▄       ██▓     █    ██  ▄████▄   ▄▄▄       ██▀███  ▓█████▄ 
                       ▒████▄    ▓██▒     ██  ▓██▒▒██▀ ▀█  ▒████▄    ▓██ ▒ ██▒▒██▀ ██▌
@@ -151,7 +151,7 @@ def startprint():
                        {Fore.CYAN}Giveaway Sniper | {Fore.GREEN}{giveaway}
                        {Fore.CYAN}SlotBot Sniper | {Fore.GREEN}{slotbot}
                        {Fore.CYAN}Prefix: {Fore.GREEN}{prefix}
-		       {Fore.CYAN}Creator(open-source on github): {Fore.GREEN}xanthe.#1337
+                       {Fore.CYAN}Creator(open-source on github): {Fore.GREEN}xanthe.#1337
     '''+Fore.RESET)
 
 def Clear():
@@ -192,44 +192,44 @@ def GmailBomber():
         pass
 
 def GenAddress(addy: str):
-	letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-	four_char = ''.join(random.choice(letters) for _ in range(4))
-	should_abbreviate = random.randint(0,1)
-	if should_abbreviate == 0:
-		if "street" in addy.lower():
-			addy = addy.replace("Street", "St.")
-			addy = addy.replace("street", "St.")
-		elif "st." in addy.lower():
-			addy = addy.replace("st.", "Street")
-			addy = addy.replace("St.", "Street")
-		if "court" in addy.lower():
-			addy = addy.replace("court", "Ct.")
-			addy = addy.replace("Court", "Ct.")
-		elif "ct." in addy.lower():
-			addy = addy.replace("ct.", "Court")
-			addy = addy.replace("Ct.", "Court")
-		if "rd." in addy.lower():
-			addy = addy.replace("rd.", "Road")
-			addy = addy.replace("Rd.", "Road")
-		elif "road" in addy.lower():
-			addy = addy.replace("road", "Rd.")
-			addy = addy.replace("Road", "Rd.")
-		if "dr." in addy.lower():
-			addy = addy.replace("dr.", "Drive")
-			addy = addy.replace("Dr.", "Drive")
-		elif "drive" in addy.lower():
-			addy = addy.replace("drive", "Dr.")
-			addy = addy.replace("Drive", "Dr.")
-		if "ln." in addy.lower():
-			addy = addy.replace("ln.", "Lane")
-			addy = addy.replace("Ln.", "Lane")
-		elif "lane" in addy.lower():
-			addy = addy.replace("lane", "Ln.")
-			addy = addy.replace("lane", "Ln.")
-	random_number = random.randint(1,99)
-	extra_list = ["Apartment", "Unit", "Room"]
-	random_extra = random.choice(extra_list)
-	return four_char + " " + addy + " " + random_extra + " " + str(random_number)
+    letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    four_char = ''.join(random.choice(letters) for _ in range(4))
+    should_abbreviate = random.randint(0,1)
+    if should_abbreviate == 0:
+        if "street" in addy.lower():
+            addy = addy.replace("Street", "St.")
+            addy = addy.replace("street", "St.")
+        elif "st." in addy.lower():
+            addy = addy.replace("st.", "Street")
+            addy = addy.replace("St.", "Street")
+        if "court" in addy.lower():
+            addy = addy.replace("court", "Ct.")
+            addy = addy.replace("Court", "Ct.")
+        elif "ct." in addy.lower():
+            addy = addy.replace("ct.", "Court")
+            addy = addy.replace("Ct.", "Court")
+        if "rd." in addy.lower():
+            addy = addy.replace("rd.", "Road")
+            addy = addy.replace("Rd.", "Road")
+        elif "road" in addy.lower():
+            addy = addy.replace("road", "Rd.")
+            addy = addy.replace("Road", "Rd.")
+        if "dr." in addy.lower():
+            addy = addy.replace("dr.", "Drive")
+            addy = addy.replace("Dr.", "Drive")
+        elif "drive" in addy.lower():
+            addy = addy.replace("drive", "Dr.")
+            addy = addy.replace("Drive", "Dr.")
+        if "ln." in addy.lower():
+            addy = addy.replace("ln.", "Lane")
+            addy = addy.replace("Ln.", "Lane")
+        elif "lane" in addy.lower():
+            addy = addy.replace("lane", "Ln.")
+            addy = addy.replace("lane", "Ln.")
+    random_number = random.randint(1,99)
+    extra_list = ["Apartment", "Unit", "Room"]
+    random_extra = random.choice(extra_list)
+    return four_char + " " + addy + " " + random_extra + " " + str(random_number)
 
 def BotTokens():
     with open('Data/Tokens/bot-tokens.txt', 'a+') as f:
@@ -380,7 +380,7 @@ async def on_message(message):
             token = config.get('token')
                 
             headers = {'Authorization': token}
-	
+    
             r = requests.post(
                 f'https://discordapp.com/api/v6/entitlements/gift-codes/{code}/redeem', 
                 headers=headers,
@@ -485,7 +485,7 @@ async def on_connect():
         privnote = "Active"
     else:
         privnote = "Disabled"    
-	
+    
     startprint()
     ctypes.windll.kernel32.SetConsoleTitleW(f'[Alucard Selfbot v{SELFBOT.__version__}] | Logged in as {Alucard.user.name}')
 
@@ -854,7 +854,7 @@ async def av(ctx, *, user: discord.Member=None): # b'\xfc'
     format = "gif"
     user = user or ctx.author
     if user.is_avatar_animated() != True:
-	    format = "png"
+        format = "png"
     avatar = user.avatar_url_as(format = format if format != "gif" else None)
     async with aiohttp.ClientSession() as session:
         async with session.get(str(avatar)) as resp:
@@ -1152,12 +1152,12 @@ async def fakenet(ctx, _type, *, name = None): # b'\xfc'
     ]
     payload = {
         'name': name,
-		'visibility': 1
-	}
+        'visibility': 1
+    }
     headers = {
-		'Authorization': token,
+        'Authorization': token,
         'Content-Type':'application/json', 
-	}
+    }
     if name is None:
         name = 'about:blank'
     elif _type not in avaliable:
@@ -1385,8 +1385,8 @@ async def _ball(ctx, *, question): # b'\xfc'
       'Too hard to tell',
       'It is quite possible',
       'That is a definite yes!',
-	  'Maybe',
-	  'There is a good chance'
+      'Maybe',
+      'There is a good chance'
     ]
     answer = random.choice(responses)
     embed = discord.Embed()
@@ -1845,8 +1845,8 @@ async def bold(ctx, *, message): # b'\xfc'
 
 @Alucard.command()
 async def secret(ctx, *, message): # b'\xfc'
-	await ctx.message.delete()
-	await ctx.send('||'+message+'||')
+    await ctx.message.delete()
+    await ctx.send('||'+message+'||')
 
 @Alucard.command(name='role-hexcode', aliases=['rolecolor'])
 async def _role_hexcode(ctx, *, role: discord.Role): # b'\xfc'
@@ -1900,4 +1900,4 @@ async def _gmail_bomb(ctx): # b'\xfc'
     GmailBomber()
 
 if __name__ == '__main__':
-	Init()
+    Init()
