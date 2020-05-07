@@ -3,7 +3,7 @@
   
 # INSTALLATION & LAUNCH - Thanks [Dany](https://github.com/Dany-LF)
 
-JUST LAUNCH INSTALLER.BAT<br>JUST LAUNCH LAUNCH.BAT
+<strong>BEFORE DOING ANYTHING EXTRACT ALL!!</strong><br>JUST LAUNCH INSTALLER.BAT<br>JUST LAUNCH LAUNCH.BAT
 
 # SKIDS
     MFTA#6969 -> KryptoCard \ The source code of his selfbot is literally just this github: https://files.sanitary.wtf/h7ga00g1.png
