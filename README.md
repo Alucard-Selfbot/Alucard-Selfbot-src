@@ -1,7 +1,11 @@
 # Alucard Selfbot source code
   - **Alucard selfbot source code, since we made a good amount of money out of it, we decided to give you the chance to do the same.**
+  
+# INSTALLATION & LAUNCH
 
-    # SKIDS
+JUST LAUNCH INSTALLER.BAT<br>JUST LAUNCH LAUNCH.BAT
+
+# SKIDS
       + **MFTA#6969 -> KryptoCard \ The source code of his selfbot is literally just this github: [IMAGE](https://files.sanitary.wtf/h7ga00g1.png)**
       + **39#9999 -> Anyone with tro at the end or start of their name -> They claim its alucard, but its a token grabber: source code: [SOURCE](https://hasteb.in/exedadeq.py)**
       + **Kitsune Another company | Main skid: wolfie -> Kappa, and theres their selfbot source code: [CLICK](https://hastebin.com/uqedaridac.py)**
