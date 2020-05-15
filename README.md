@@ -1,4 +1,4 @@
-# Alucard Selfbot source code
+# Alucard Selfbot source code (OUTDATED) 
   - **Alucard selfbot source code, since we made a good amount of money out of it, we decided to give you the chance to do the same.** WORK ONLY ON WINDOWS LATER A PYTHON VERSION CAN COME HERE!
   
 # INSTALLATION & LAUNCH - Thanks [Dany](https://github.com/Dany-LF)
@@ -15,7 +15,7 @@
     Some random skid -> https://www.youtube.com/watch?v=kHmBCK7nrhc
       
 # INFO
- - Official page ~~http://alucard.wtf~~ | Closed
- - Official shop ~~https://hexpay.gg/u/Alucard-Selfbot/~~ | Closed
+ - Official page http://alucard.wtf | Back up
+ - Official shop https://hexpay.gg/u/Alucard-Selfbot/ | Back up
 
 ###### if you know how to install requirements.txt then you are one step ahead of everyone else! Congrats!
