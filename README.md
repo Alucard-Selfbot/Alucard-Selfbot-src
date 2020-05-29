@@ -1,7 +1,7 @@
 # Alucard Selfbot source code (OUTDATED) 
   - **Alucard selfbot source code, since we made a good amount of money out of it, we decided to give you the chance to do the same.** WORK ONLY ON WINDOWS LATER A PYTHON VERSION CAN COME HERE!
   
-# INSTALLATION & LAUNCH - Thanks [Dany](https://github.com/Dany-LF)
+# INSTALLATION & LAUNCH - Thanks [Hideaki](https://github.com/HideakiAtsuyo)
 
 <strong>BEFORE DOING ANYTHING EXTRACT ALL!!</strong><br>JUST LAUNCH INSTALLER.BAT<br>JUST LAUNCH LAUNCH.BAT
 
