@@ -2,7 +2,7 @@ class SELFBOT():
     __linecount__ = 1933
     __version__ = 3.4
     
-    # Dont just skid it, gimme some credits, thank you - coats.#1337
+    # Dont just skid it, gimme some credits, thank you - coats.#1234
     
 import discord, subprocess, sys, time, os, colorama, base64, codecs, datetime, io, random, numpy, datetime, smtplib, string, ctypes
 import urllib.parse, urllib.request, re, json, requests, webbrowser, aiohttp, dns.name, asyncio, functools, logging
