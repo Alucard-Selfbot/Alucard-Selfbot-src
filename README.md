@@ -13,6 +13,7 @@
     Sleep#1617 Has Alucard but renamed it to his own client. https://media.discordapp.net/attachments/687413883194966061/698807641065127946/unknown.png
     Snowwy#0009 Has Alucard but renamed it to his own client. https://media.discordapp.net/attachments/687944353616101377/695920225106919514/unknown.png?width=903&height=677 - https://heroin.is-ne.at/rQw7aq.png
     Some random skid -> https://www.youtube.com/watch?v=kHmBCK7nrhc
+    smooth#0001 -> Some random boomer. ( he skidded alucard just forgot to put em on here ) https://prnt.sc/tbna2f
       
 # INFO
  - Official page http://alucard.wtf | Back up
