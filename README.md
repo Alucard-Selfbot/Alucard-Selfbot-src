@@ -14,3 +14,4 @@ Love you coats -Vexy
 
 
 ##### thanks for the yt vid ~ Fweak
+[![Run on Repl.it](https://repl.it/badge/github/Alucard-Selfbot/Alucard-Selfbot-src)](https://repl.it/github/Alucard-Selfbot/Alucard-Selfbot-src)
