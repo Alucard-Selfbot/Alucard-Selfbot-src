@@ -1,3 +1,5 @@
+# THIS PROJECT HAS BEEN DISCONTINUED. ANY FURTHER ISSUES WON'T BE ANSWERED BY US!
+
 # Setup
   - Since it's discontinuted and some good guy (trickstr) decided to make a video tutorial about it
   - There are the steps: https://www.youtube.com/watch?v=Sqwdlvr5xvo
