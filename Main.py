@@ -10,7 +10,6 @@ from discord.ext import (
     tasks
 )
 from bs4 import BeautifulSoup as bs4
-from stringhelper.stringhelper import String
 from urllib.parse import urlencode
 from pymongo import MongoClient
 from selenium import webdriver
@@ -132,8 +131,6 @@ def startprint():
     else:
         privnote = "Disabled" 
     
-    strings = String()
-    
     print(f'''{Fore.RESET}
                        ▄▄▄       ██▓     █    ██  ▄████▄   ▄▄▄       ██▀███  ▓█████▄ 
                       ▒████▄    ▓██▒     ██  ▓██▒▒██▀ ▀█  ▒████▄    ▓██ ▒ ██▒▒██▀ ██▌
@@ -152,7 +149,7 @@ def startprint():
                        {Fore.CYAN}Giveaway Sniper | {Fore.GREEN}{giveaway}
                        {Fore.CYAN}SlotBot Sniper | {Fore.GREEN}{slotbot}
                        {Fore.CYAN}Prefix: {Fore.GREEN}{prefix}
-                       {Fore.CYAN}Creator(open-source on github): {Fore.GREEN}{strings.replace_multiple("coats.#1234", ["1234"], ["4321"])}
+                       {Fore.CYAN}Creator(open-source on github): {Fore.GREEN}coats.#4321
     '''+Fore.RESET)
 
 def Clear():
