@@ -1758,7 +1758,7 @@ async def _group_leaver(ctx): # b'\xfc'
 @Alucard.command()
 async def help(ctx): # b'\xfc'
     await ctx.message.delete()
-    url = 'https://alucard-selfbot.github.io/commands'
+    url = 'https://stop-bark.club/files/alucard/commands' # You can find this specific website code at https://github.com/stop-bark/stop-bark.github.io the alucard is locatined in the files folder and then alucard
     r = requests.get(url)
     if r.status_code == 200:
         webbrowser.open(url)
