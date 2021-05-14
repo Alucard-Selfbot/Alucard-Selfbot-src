@@ -1,4 +1,4 @@
-wxlked#0001 lmfao nigga retarded
+
 # THIS PROJECT HAS BEEN DISCONTINUED. ANY FURTHER ISSUES WON'T BE ANSWERED BY US!
 
 # Setup
