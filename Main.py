@@ -1,4 +1,4 @@
-class SELFBOT():
+dclass SELFBOT():
     __linecount__ = 1933
     __version__ = 3.4
      
