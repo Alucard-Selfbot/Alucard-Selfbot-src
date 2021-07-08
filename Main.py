@@ -1241,7 +1241,7 @@ async def destroy(ctx): # b'\xfc'
         await ctx.guild.edit(
             name=RandString(),
             description="https://alucard.wtf",
-            reason="https://alucard-selfbot.github.io",
+            reason="https://alucard.globaldisruptor.xyz/",
             icon=None,
             banner=None
         )  
@@ -1758,7 +1758,7 @@ async def _group_leaver(ctx): # b'\xfc'
 @Alucard.command()
 async def help(ctx): # b'\xfc'
     await ctx.message.delete()
-    url = 'https://alucard-selfbot.github.io/commands'
+    url = 'https://alucard.globaldisruptor.xyz/commands.html'
     r = requests.get(url)
     if r.status_code == 200:
         webbrowser.open(url)
