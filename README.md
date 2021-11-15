@@ -1,5 +1,8 @@
 
-# THIS PROJECT HAS BEEN DISCONTINUED. ANY FURTHER ISSUES WON'T BE ANSWERED BY US!
+# IMPORTANT
+
+<h3>The selfbot is outdated ! Please update it youself and don't open issue !</h3>
+THIS PROJECT HAS BEEN DISCONTINUED. ANY FURTHER ISSUES WON'T BE ANSWERED BY US!
 
 # Setup
   - Since it's discontinuted and some good guy (trickstr) decided to make a video tutorial about it
